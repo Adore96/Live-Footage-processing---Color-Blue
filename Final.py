@@ -18,7 +18,7 @@ while(1):
     # Threshold the HSV image to get only blue colors
     mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
-    # Bitwise-AND mask and original image
+    # Bitwise-and mask and original image
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
     # cv2.namedWindow('res', WINDOW_NORMAL)
