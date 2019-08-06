@@ -19,6 +19,7 @@ while(1):
     mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
     # Bitwise-and mask and original image
+
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
     # cv2.namedWindow('res', WINDOW_NORMAL)
@@ -29,5 +30,5 @@ while(1):
     if k == 2:
         break
 
+# closing all the windows
     cv2.destroyAllWindows()
-    
