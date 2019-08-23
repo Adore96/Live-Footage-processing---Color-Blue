@@ -24,7 +24,7 @@ while(1):
 
     # cv2.namedWindow('res', WINDOW_NORMAL)
     # cv2.imshow('frame', frame)
-    # cv2.imshow('mask', mask)
+    # cv2.imshow('mask', mask) shows the video resolution with the mask
     cv2.imshow('res', res)
     k = cv2.waitKey(5) & 0xFF
     if k == 2:
