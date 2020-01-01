@@ -1,2 +1,2 @@
 # Live Footage processing-Color Blue
-#### This uses the live feed of the web camera and smoothes the video and seperates the blue color things from the video feed.
+#### This uses the live feed of the web camera and smoothes the video and seperates the blue color things from the video feed.You'll see them from seperate windows.
